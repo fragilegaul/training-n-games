@@ -1,6 +1,7 @@
 import java.util.stream.LongStream;
 
 public class MathEx {
+
     public static long factorialNoLoopNoRec(int a) {
         return LongStream.rangeClosed(1, a)
                         .reduce(1, (long b, long c) -> b * c);
@@ -23,5 +24,16 @@ public class MathEx {
 
         System.out.println(factorialNoLoopNoRec(5));
 
+        double sr5 = Math.log10(123);
+        System.out.println(sr5);
+
+        double sr6 = Math.sin(Math.toRadians(90));
+        System.out.println(sr6);
+
+        double sr7 = Math.cos(Math.toRadians(30));
+        System.out.println(sr7);
+
+        double sr8 = Math.tan(Math.toRadians(30));
+        System.out.println(sr8);
     }
 }
