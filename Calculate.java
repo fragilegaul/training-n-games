@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Arrays;
 
 public class Calculate {
@@ -42,6 +43,12 @@ public class Calculate {
 
         System.out.println("\n" + maxValue(123, 324, 30));
 
+        double c = 9898989898989L * 9898989898989L;
+        System.out.println(c);
+
+        BigInteger a1 = new BigInteger("9898989898989");
+        BigInteger a2 = a1;
+        BigInteger bI = a1.multiply(a2);
+        System.out.println(bI);
     }
-    
 }
