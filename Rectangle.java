@@ -29,9 +29,16 @@ public class Rectangle {
         return (sideA + sideB) * 2;
     }
 
+    public int areaRec() {
+        return (sideA * sideB);
+    }
+
     public static void main(String[] args) {
-        Rectangle rec = new Rectangle(40, 100);
-        System.out.println(rec.perimRec());
+        Rectangle rec1 = new Rectangle(40, 100);
+        System.out.println(rec1.perimRec());
+
+        Rectangle rec2 = new Rectangle(5, 500);
+        System.out.println(rec2.areaRec()); 
 
     }
     
