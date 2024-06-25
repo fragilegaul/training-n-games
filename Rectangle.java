@@ -31,7 +31,7 @@ public class Rectangle {
 
     public static void main(String[] args) {
         Rectangle rec = new Rectangle(40, 100);
-        rec.perimRec();
+        System.out.println(rec.perimRec());
 
     }
     
