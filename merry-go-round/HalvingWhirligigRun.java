@@ -17,5 +17,4 @@ public class HalvingWhirligigRun extends WhirligigRun {
         }
         return currentValue;
     }
-
 }

@@ -18,5 +18,4 @@ public class GraduallyDecreasingWhirligigRun extends WhirligigRun {
         }
         return currentValue;
     }
-    
 }
