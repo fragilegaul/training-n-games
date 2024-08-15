@@ -4,13 +4,13 @@ public class WhirligigRun {
     protected int decrement = 1;
 
     public int next() {
-             int count = 0;
-             while (count < array.length && array[indexPosition %= array.length] <= 0) {
-                 indexPosition++;
-                 count++;
-             }
-             if (count == array.length) return -1;
-             return array[indexPosition++]--;
+            int count = 0;
+            while (count < array.length && array[indexPosition %= array.length] <= 0) {
+                indexPosition++;
+                count++;
+            }
+            if (count == array.length) return -1;
+            return array[indexPosition++]--;
          }
          
     public boolean isFinished() {
